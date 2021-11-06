@@ -12,6 +12,7 @@ import {
   CurrentUserBadgeMobile,
 } from '../CurrentUserBadge';
 import { ConnectButton } from '@oyster/common';
+import {Logo} from "./logo";
 
 const getDefaultLinkActions = (connected: boolean) => {
   return [
@@ -109,7 +110,7 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img className="logo" src={'./logo.svg'} />
+      <Logo />
     </Link>
   );
 };
