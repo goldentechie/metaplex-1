@@ -42,7 +42,8 @@ export type ENV =
 export const ENDPOINTS = [
   {
     name: 'mainnet-beta' as ENV,
-    endpoint: 'https://api.metaplex.solana.com/',
+    endpoint: 'https://snowy-dark-sunset.solana-devnet.quiknode.pro/e9d82bcbc1268ef56aa661f8dbb7b026af8ddfba/',
+    // endpoint: 'https://api.metaplex.solana.com/',
     ChainId: ChainId.MainnetBeta,
   },
   {
@@ -62,7 +63,8 @@ export const ENDPOINTS = [
   },
   {
     name: 'devnet' as ENV,
-    endpoint: clusterApiUrl('devnet'),
+    // endpoint: clusterApiUrl('devnet'),
+    endpoint: 'https://snowy-dark-sunset.solana-devnet.quiknode.pro/e9d82bcbc1268ef56aa661f8dbb7b026af8ddfba/',
     ChainId: ChainId.Devnet,
   },
 ];
